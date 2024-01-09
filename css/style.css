@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(126, 126, 126);
+    background-image: url(../img/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Tangerine', cursive;
+    font-size: 33px;
+    color: white;
+    height: 1200px;
+
+}
+
+
+#texte {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28%
+}
+
+#paradise {
+    position: absolute;
+    left: 12%;
+    top: 53%;
+    width: 12%;
+    filter: saturate(0);
+    /*transform: rotate(357deg)*/
+}
+
+
+#lyre {
+    position: absolute;
+    left: 32%;
+    top: 78%;
+    width: 12%;
+    filter: saturate(0);
+    /*transform: rotate(12deg)*/
+}
+
+
+#jungle {
+    position: absolute;
+    right: 13%;
+    top: 15%;
+    width: 12%;
+    filter: saturate(0);
+    /*transform: rotate(deg)*/
+}
+
+
+#tanager {
+    position: absolute;
+    left: 55%;
+    top: 74%;
+    width: 12%;
+    filter: saturate(0);
+    /*transform: rotate(350deg)*/
+}
+
+#redbird {
+    position: absolute;
+    left: 37%;
+    top: 3%;
+    width: 12%;
+    filter: saturate(0);
+    /*transform: rotate(10deg)*/
+}
+
+#owl {
+    position: absolute;
+    left: 56%;
+    top: 5%;
+    width: 12%;
+    filter: saturate(0);
+    /*transform: rotate(350deg)*/
+}
+
+#parrot {
+    position: absolute;
+    left: 77%;
+    top: 60%;
+    width: 12%;
+    filter: saturate(0);
+    /*transform: rotate(10deg)*/
+}
+
+#quezal {
+    position: absolute;
+    left: 17%;
+    top: 5%;
+    width: 12%;
+    filter: saturate(0);
+    /* transform: rotate(350deg)*/
+}
