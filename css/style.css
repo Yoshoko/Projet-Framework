@@ -1,44 +1,60 @@
 body {
-    background-color: rgb(126, 126, 126);
-    background-image: url(../img/fond.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    background-color: rgb(255, 255, 255);
     font-family: 'Tangerine', cursive;
     font-size: 33px;
     color: white;
-    height: 1200px;
-
+    margin: 0;
+    height: 600vh;
 }
 
-
-#texte {
-    display: block;
-    text-align: center;
-    align-items: center;
+#box {
+    background-image: url(../img/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    display: flex;
     justify-content: center;
-    margin-top: 28%
+    align-items: center;
 }
 
+#box2 {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+}
+
+#sentence2 {
+    color: black;
+    font-size: 500%;
+    position: relative;
+    z-index: 2;
+    transform-origin: center center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+}
+
+/*rotation des images à l'apparition*/
 #paradise {
     position: absolute;
     left: 12%;
     top: 53%;
     width: 12%;
     filter: saturate(0);
-    /*transform: rotate(357deg)*/
 }
-
 
 #lyre {
     position: absolute;
     left: 32%;
-    top: 78%;
+    top: 74%;
     width: 12%;
     filter: saturate(0);
-    /*transform: rotate(12deg)*/
 }
-
 
 #jungle {
     position: absolute;
@@ -46,9 +62,7 @@ body {
     top: 15%;
     width: 12%;
     filter: saturate(0);
-    /*transform: rotate(deg)*/
 }
-
 
 #tanager {
     position: absolute;
@@ -56,7 +70,6 @@ body {
     top: 74%;
     width: 12%;
     filter: saturate(0);
-    /*transform: rotate(350deg)*/
 }
 
 #redbird {
@@ -65,7 +78,6 @@ body {
     top: 3%;
     width: 12%;
     filter: saturate(0);
-    /*transform: rotate(10deg)*/
 }
 
 #owl {
@@ -74,7 +86,6 @@ body {
     top: 5%;
     width: 12%;
     filter: saturate(0);
-    /*transform: rotate(350deg)*/
 }
 
 #parrot {
@@ -83,7 +94,6 @@ body {
     top: 60%;
     width: 12%;
     filter: saturate(0);
-    /*transform: rotate(10deg)*/
 }
 
 #quezal {
@@ -92,5 +102,126 @@ body {
     top: 5%;
     width: 12%;
     filter: saturate(0);
-    /* transform: rotate(350deg)*/
+}
+
+/*positionnement des gifs*/
+#big1 {
+    position: absolute;
+    width: 20%;
+    left: 60%;
+    top: 63%;
+    opacity: 0;
+}
+
+#big2 {
+    position: absolute;
+    width: 20%;
+    left: 5%;
+    top: 11%;
+    opacity: 0;
+}
+
+#big3 {
+    position: absolute;
+    width: 20%;
+    left: 70%;
+    top: 10%;
+    opacity: 0;
+}
+
+#big4 {
+    position: absolute;
+    width: 20%;
+    left: 18%;
+    top: 63%;
+    opacity: 0;
+}
+
+#medium1 {
+    position: absolute;
+    width: 12%;
+    left: 50%;
+    top: 14%;
+    opacity: 0;
+}
+
+#medium2 {
+    position: absolute;
+    width: 12%;
+    left: 2%;
+    top: 45%;
+    opacity: 0;
+}
+
+#medium3 {
+    position: absolute;
+    width: 12%;
+    left: 43%;
+    top: 60%;
+    opacity: 0;
+}
+
+#medium4 {
+    position: absolute;
+    width: 12%;
+    left: 34%;
+    top: 25%;
+    opacity: 0;
+}
+
+#small1 {
+    position: absolute;
+    width: 8%;
+    left: 78%;
+    top: 49%;
+    opacity: 0;
+}
+
+#small2 {
+    position: absolute;
+    width: 8%;
+    left: 80%;
+    top: 35%;
+    opacity: 0;
+}
+
+#small3 {
+    position: absolute;
+    width: 8%;
+    left: 7%;
+    top: 68%;
+    opacity: 0;
+}
+
+#small4 {
+    position: absolute;
+    width: 8%;
+    left: 37%;
+    top: 7%;
+    opacity: 0;
+}
+
+/*positionnement des deux boîtes de la section */
+#box3 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+#text3 {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 8vh;
+    font-family: 'EB Garamond', serif;
+    text-align: start;
+    align-items: center;
+}
+
+#pin {
+    width: 50%;
+    background-color: rgb(246, 238, 193);
+    color: rgb(255, 255, 255);
+    background-image: url(../img/penguin1.png);
 }
