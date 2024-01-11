@@ -1,8 +1,7 @@
-
 /* variable pour modifier la saturation de l'image au survol*/
+/* on part d'une image avec une saturation 0 pour une image avec une saturation 1 au survol*/
 const animationFrom = { filter: "saturate(1)", }
 const animationTo = { filter: "saturate(0)" }
-
 
 tanager.onmouseenter = function () {
     gsap.fromTo("#tanager", animationTo, animationFrom)
@@ -119,7 +118,7 @@ gsap.to("[data-speed]", {
 });
 
 
-/* apparition des gifs */
+/* apparition des gifs ( à différents moments) */
 gsap.to("#big1", {
     scrollTrigger: {
         trigger: "#big1",
@@ -180,7 +179,6 @@ gsap.to("#medium2", {
 
     },
     opacity: 1,
-
 });
 
 gsap.to("#medium3", {
@@ -245,7 +243,6 @@ gsap.to("#small4", {
 
 /*ancrage de la section 2*/
 gsap.to("#box2", {
-
     scrollTrigger: {
         trigger: "#box2",
         markers: false,
@@ -270,7 +267,6 @@ gsap.to("#sentence2", {
 
 /*ancrage de la box de droite (section3)*/
 gsap.to("#pin", {
-
     scrollTrigger: {
         trigger: "#pin",
         markers: false,
