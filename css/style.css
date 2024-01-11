@@ -4,7 +4,7 @@ body {
     font-size: 33px;
     color: white;
     margin: 0;
-    height: 600vh;
+    height: 500vh;
 }
 
 #box {
@@ -15,6 +15,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#title {
+    font-size: 8vh;
+    line-height: 1vh;
 }
 
 #box2 {
@@ -33,8 +38,6 @@ body {
     position: relative;
     z-index: 2;
     transform-origin: center center;
-    justify-content: center;
-    align-items: center;
     opacity: 0;
 
 }
@@ -217,10 +220,15 @@ body {
     width: 50%;
     background-color: rgb(255, 255, 255);
     color: black;
-    font-size: 7vh;
-    font-family: 'EB Garamond', serif;
+    font-size: 9vh;
     text-align: start;
     align-items: center;
+    padding: 4vh;
+}
+
+#emoji {
+    text-align: center;
+    padding-top: 2vh;
 }
 
 #pin {
