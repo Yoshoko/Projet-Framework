@@ -217,18 +217,17 @@ body {
     width: 50%;
     background-color: rgb(255, 255, 255);
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-family: 'EB Garamond', serif;
     text-align: start;
     align-items: center;
 }
-
 
 #pin {
     width: 50%;
     background-color: rgb(247, 245, 232);
     color: rgb(255, 255, 255);
     background-image: url(../img/penguin1.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }

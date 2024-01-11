@@ -269,7 +269,6 @@ gsap.to("#sentence2", {
 gsap.to("#pin", {
     scrollTrigger: {
         trigger: "#pin",
-        markers: false,
         pin: true,
     },
 })
