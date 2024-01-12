@@ -42,7 +42,7 @@ body {
 
 }
 
-/*rotation des images à l'apparition*/
+/*position des images et saturation 0*/
 #paradise {
     position: absolute;
     left: 12%;
@@ -208,7 +208,7 @@ body {
     opacity: 0;
 }
 
-/*positionnement des deux boîtes de la section */
+/*positionnement des deux boîtes de la section 3 */
 #box3 {
     position: relative;
     height: 100vh;
